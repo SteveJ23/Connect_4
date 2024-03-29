@@ -1,0 +1,61 @@
+body{
+	text-align: center;
+	background-color: #13284c;
+
+
+
+
+}
+h1{
+	color: #b1102b;
+}
+
+#gameboard{
+	height:  500px;
+	width: 590px;
+	background-color: blue;
+	border: 10px solid #000065;
+	margin:  0 auto;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.holes{
+	background-color: white;
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+	margin: 2px;
+	border: 5px solid #000065;
+
+}
+
+
+.playerOneP{
+	background-color: red;
+	opacity: 1;
+}
+
+.playerTwoP{
+	background-color: yellow;
+}
+
+
+button{
+
+	margin-top: 10px;
+	background: #ced1d4;
+
+}
+
+label{
+	border: solid grey 2px;
+	color: black;
+	background: white;
+}
+
+.gameHint{
+	background-color: orange;
+	opacity:  1;
+}

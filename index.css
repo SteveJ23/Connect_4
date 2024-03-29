@@ -1,0 +1,73 @@
+
+body{
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Ariel";
+	background-color: #13284c;
+
+}
+
+.menu{
+	
+	box-sizing: border-box;
+	border: solid #b1102b 4px;
+	width: 500px;
+	height: 500px;
+	border-radius: 4px;
+  	margin: 0 auto;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+
+
+}
+
+h1{
+	font-size: 50px;
+	color: #b1102b;
+
+}
+
+ul{
+	list-style: none;
+	display: inline-block;
+	padding-left: 0;
+	font-size: 30px;
+
+
+
+}
+
+li{
+	
+	margin: 20px 0;
+}
+
+
+li a{
+	text-decoration: none;
+	color: #b1102b;
+}
+
+.logo{
+	width:  400px;
+	flex: 0 0 400px;
+	float: right;
+}
+
+
+.logo img{
+
+	max-width: 100%;
+
+}
+
+#loggedIn{
+
+	font-size: 20px;
+
+
+
+}
+

@@ -1,0 +1,54 @@
+body{
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Ariel";
+	background-color: #13284c;
+
+}
+
+
+.loginPage{
+	
+	box-sizing: border-box;
+	border: solid #b1102b 4px;
+	width: 500px;
+	height: 500px;
+	border-radius: 4px;
+  	margin: 0 auto;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+
+
+}
+
+h1{
+	font-size: 50px;
+	color: #b1102b;
+
+}
+
+p{
+	font-size: 25px;
+	color: #b1102b;
+
+
+}
+
+.logo{
+	width:  400px;
+	flex: 0 0 400px;
+	float: right;
+}
+
+.logo img{
+
+	max-width: 100%;
+
+}
+
+label{
+	color: #b1102b;
+	font-size: 30px;
+}
